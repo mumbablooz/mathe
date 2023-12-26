@@ -1,0 +1,16 @@
+.trueResultsContainer{
+display: flex;
+flex-direction: column-reverse;
+}
+
+.trueResultsContainer li{
+display: flex;
+justify-Content: space-between;
+align-items: center;
+width: 100px;
+}
+
+.trueResultsContainer li p{
+font-size: 1rem;
+color: rgb(71, 71, 71);
+}

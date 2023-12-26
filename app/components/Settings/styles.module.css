@@ -1,0 +1,56 @@
+.settingButtonClosed{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1rem;
+    background-color: blueviolet;
+    cursor: pointer;
+    }
+    .settingButtonOpen{
+        position: fixed;
+            left: 0;
+    right: 0;
+    top: 16rem;
+        height: 1rem;
+        background-color: blueviolet;
+        cursor: pointer;
+        }
+
+    .settingContainer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height: 16rem;
+    padding: 0.4rem;
+    margin: 0.2rem 0;
+}
+.settingContainer div{
+    display: flex;
+    align-items: center;
+    margin: 0.2rem 0;
+}
+.settingContainer div .inputWrapper input{
+    width: 14rem;
+    padding: 0.2rem;
+    border: 1px solid black;
+    font-size: 4rem;
+    margin: 0 1rem;
+        }    
+.settingContainer div .inputWrapper:first-of-type input{
+    width: 7rem;
+}
+.inputWrapper{
+    position: relative;
+}
+
+.chooseThisInput{
+width: 20px;
+height: 100%;
+background-color: black;
+position: absolute;
+right: 15px;
+cursor: pointer;
+}

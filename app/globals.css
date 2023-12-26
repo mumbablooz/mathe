@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 div,section{
-  transition: 5s ease-in-out;
+  transition: 2s ease-in-out;
 }
 a{
   text-decoration: none;
@@ -22,10 +22,10 @@ ul{
   list-style-type: none;
 }
 p, b, button{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 h1{
-  font-size: 3rem;
+  font-size: 4rem;
 }
 h2{
   font-size: 2.6rem;
@@ -59,7 +59,7 @@ button:hover,
 .button:hover,
 Link:hover
 {
-  background-color: rgb(202,255,112);
+  background-color: rgb(225, 192, 231);
   transition: 0.2s ease-in-out;
 }
 

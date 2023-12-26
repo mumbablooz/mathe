@@ -1,0 +1,14 @@
+.dieAufgabe{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50vw;
+}
+.dieAufgabe p{
+font-size: 4rem;
+width: 4em;
+padding: 0.2em;
+}
+.dieAufgabe p:last-child{
+    width: 20em;
+}
