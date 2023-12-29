@@ -2,10 +2,10 @@
         display:flex;
         justify-content: space-between;
         align-items: center;
-        width: 50vw;
+        width: 30vw;
 }
 .dieAufgabe p{
-font-size: 4rem;
+font-size: 3rem;
 width: 4em;
 padding: 0.2em;
 }
