@@ -57,7 +57,7 @@ useEffect(()=>{
 },[openSetting])*/
 
 function handleClickOk(eTarget){
-console.log(eTarget)
+
   if(result==aufgabe.result){
     
     eTarget.style.backgroundColor='green'
@@ -115,7 +115,7 @@ function handleKeyDown(e){
     <div style={{
         display: 'flex',
         flexDirection: 'column',
-        padding: '0.5rem'
+        padding: '0.2rem'
     }}>
       <Settings setting={setting} setSetting={setSetting} 
       openSetting={openSetting} setOpenSetting={setOpenSetting} 
@@ -138,10 +138,10 @@ function handleKeyDown(e){
       style={{
         border: '1px solid black',
         borderRadius: '5rem',
-        margin: '2rem 1rem',
+        margin: '0 1rem 1rem 1rem',
         padding: '0.6rem',
         width: '10rem',
-        fontSize: '4rem'
+        fontSize: '3rem'
       }}
       value={result ? result : ''}/>
 <Keyboard result={result} setResult={setResult}  
